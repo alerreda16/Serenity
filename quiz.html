@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html>
+	<!--Head-->
+	<head>
+		<title>Serenity</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="script.js"></script>
+		<!--Needed this; "'" were getting turned into "â€™"-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<!--Body-->
+	<body background="background.jpg">
+		<div id="main">
+			<!--Banner-->
+			<div id="banner">
+				<a href="index.html"><img src="banner.png"></a>
+			</div>
+			<!--Quiz-->
+			<div id="row8">
+				<!--Header-->
+				<div class="header">
+					<img src="quiz.png"/>
+				</div>
+				<!--Body-->
+				<div class="info">
+					<section>
+						<div id="results"></div>
+							<form name="quizForm" onsubmit="return submitAnswers()">
+								<h3>1. What is NOT a Governing Rule for Minions?</h3>
+								<input type="radio" name="q1" value="a" id="q1a">a. Rule of Backup<br>
+								<input type="radio" name="q1" value="b" id="q1b">b. Rule of Spawn<br>
+								<input type="radio" name="q1" value="c" id="q1c">c. Rule of Four<br>
+								<input type="radio" name="q1" value="d" id="q1d">d. Rule of Cannon<br>
+								
+								<h3>1. How many possible entrances are there into the jungle in total?</h3>
+								<input type="radio" name="q2" value="a" id="q2a">a. 8<br>
+								<input type="radio" name="q2" value="b" id="q2b">b. 2<br>
+								<input type="radio" name="q2" value="c" id="q2c">c. 6<br>
+								<input type="radio" name="q2" value="d" id="q2d">d. 4<br>
+								
+								<h3>1. What does the Rule of Charity basically state?</h3>
+								<input type="radio" name="q3" value="a" id="q3a">a. The opponent is making mistakes which they can not see, but I see them therefore I am better than they are<br>
+								<input type="radio" name="q3" value="b" id="q3b">b. Be charitable towards your opponent by giving them first blood<br>
+								<input type="radio" name="q3" value="c" id="q3c">c. Make sure to always donate to Riot or atleast buy Riot Points<br>
+								<input type="radio" name="q3" value="d" id="q3d">d. If you are unsure of what your opponent is doing, then assume they are being smart<br>
+								
+								<h3>1. Freeze the lane when the opponent is not present</h3>
+								<input type="radio" name="q4" value="a" id="q4a">a. True<br>
+								<input type="radio" name="q4" value="b" id="q4b">b. False<br>
+								
+								<h3>1. Where should you ward as a Support on Red side?</h3>
+								<input type="radio" name="q5" value="a" id="q5a">a. Dragon only<br>
+								<input type="radio" name="q5" value="b" id="q5b">b. Dragon and ally Mid-Bot jungle entrance<br>
+								<input type="radio" name="q5" value="c" id="q5c">c. Enemy Mid-Top and Mid-Bot jungle entrance<br>
+								<input type="radio" name="q5" value="d" id="q5d">d. Dragon and tri-brush<br>
+								<br><br>
+								<input type="submit" value="Submit Answers">
+							</form>
+					</section>
+				</div>
+			</div>
+			<!--Footer-->
+			<div id="footer">
+				<div id="copyright">
+					All League of Legends artwork is sole property of Riot Games, Inc. Serenity isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends &copy; Riot Games, Inc.
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
