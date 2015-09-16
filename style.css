@@ -1,0 +1,157 @@
+#main{
+	width: 1200px;
+	margin: auto;
+	background-color: none;
+}
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: none;
+}
+video{
+	display: block;
+	margin: auto;
+}
+#banner{
+	float: left;
+	width: 1200px;
+	height: 296px;
+	padding-top: 75px;
+	background-color: none;
+}
+#row2, #row3, #row4{
+	float: left;
+	width: 1200px;
+	margin-bottom: 100px;
+	background-color: none;
+}
+#row5, #row6, #row7{
+	float: left;
+	width: 1200px;
+	margin-bottom: 71px;
+	background-color: none;
+}
+#row8{
+	float: left;
+	width: 1200px;
+	margin-bottom: 71px;
+	background-color: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#footer{
+	float: left;
+	width: 1200px;
+	height: 88px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+.header{
+	float: left;
+	width: 1200px;
+	height: 76px;
+	margin-bottom: 20px;
+	padding-top: 25px;
+	border-top: 9px double white;
+	border-bottom: 9px double white;
+}
+.body{
+	float: left;
+	width: 294px;
+	height: 294px;
+	margin-top: 29px;
+	margin-bottom: 49px;
+	margin-left: 75px;
+	border: 3px solid white;
+}
+#quiz{
+	float: left;
+	width: 1200px;
+	height: 76px;
+	border-top: 9px double white;
+	padding-top: 25px;
+	border-bottom: 9px double white;
+}
+#copyright{
+	display: block;
+	text-align: center;
+	color: white;
+}
+#previous{
+	float: left;
+	width: 123px;
+}
+#next{
+	float: right;
+	width: 123px;
+}
+.info{
+	float: left;
+	width: 940px;
+	height: auto;
+	margin-top: 29px;
+	margin-left: 75px;
+	border: none;
+	padding-top: 49px;
+	padding-left: 49px;
+	padding-right: 49px;
+	padding-bottom: 49px;
+	background-color: #DEDEDE;
+}
+.para1{
+	float: left;
+	width: 934px;
+	padding-right: 58px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+.para2{
+	float: left;
+	width: 934px;
+	margin-top: 29px;
+	padding-right: 29px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+.para3{
+		float: left;
+	width: 934px;
+	margin-top: 29px;
+	padding-top: 9px;
+	padding-right: 29px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+#quote{
+	float: left;
+	width: 934px;
+	margin-top: 29px;
+	padding-right: 29px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	text-indent: 39px;
+}
+.video{
+	float: left;
+	margin-top: 29px;
+	margin-bottom: 29px;
+	margin-left: 100px;
+	border: 3px solid white;
+}
+.map{
+	float: left;
+	margin-top: 29px;
+	margin-left: 220px;
+}
+input{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	cursor: pointer;
+}
+#results h3{
+	background: #DEDEDE;
+	padding: 10px;
+	margin-bottom: 29px;
+	border-top: 3px double black;
+	border-bottom: 3px double black;
+}
